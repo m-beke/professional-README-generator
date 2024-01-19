@@ -4,11 +4,29 @@ const generateMarkdown = require('./utils/generateMarkdown.js');
 const fs = require('fs');
 
 // TODO: Create an array of questions for user input
-const questions = [{
-    type: "input",
-    name: "title",
-    message: "What is your project name?"
-}];
+const questions = inquirer
+    .prompt ([
+        {
+            type: "input",
+            name: "title",
+            message: "What is your project name?"
+        },
+        {
+            type: 'input',
+            name: 'description',
+            message: 'Add a short description of your project:',
+        },
+        {
+            type: 'input',
+            name: 'installation',
+            message: 'How can your project be installed?',
+        },
+        {
+            type: 'input',
+            name: 'usage',
+            message: 'How do you use your project?',
+        },
+]);
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
