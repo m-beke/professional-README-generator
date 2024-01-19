@@ -18,7 +18,7 @@ const questions = inquirer
         },
         {
             type: 'input',
-            name: 'installation',
+            name: 'install',
             message: 'How can your project be installed?',
         },
         {

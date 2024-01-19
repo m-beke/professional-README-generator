@@ -1,19 +1,22 @@
-# undefined
+# professional-README-generator
 
-    ## Description
+![Image](./assets/images/md-generator-screenshot.png)
 
-    undefined
+## Description
 
-    ## Installation
+A node-based README generator that I made.
 
-    undefined
+## Installation
 
-    ## Usage
+N/A
 
-    undefined
+## Usage
 
-    ## License
-  undefined
-  undefined
+Click this link https://m-beke.github.io/professional-README-generator/ to be taken to the application. 
 
-    
+From there, open the console and run "node index.js". This will prompt you with questions to answer regarding the structure of your README file. Once you have answered all the questions, your unique README file will be generated.
+
+## License
+
+Please refer to the LICENSE in the repo.
+
